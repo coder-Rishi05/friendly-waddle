@@ -1,0 +1,5 @@
+github => when we work locally on a project and upload it online server is called github.
+
+git => creating diffrent version of a project and managing diffrent version of the code.
+saved points of a project.
+
