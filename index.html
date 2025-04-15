@@ -8,6 +8,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
         rel="stylesheet" />
+        <script src="script.js" defer></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -92,40 +93,7 @@
         </main>
     </div>
 
-    <script>
-        const ham = document.querySelector(".hamburger-menu");
-        const headerContent = document.querySelector(".header-content");
-        const closeIcon = document.querySelector(".close");
-        const goTop = document.querySelector('.go-to-top');
-        const nav = document.querySelector("nav")
-        const main = document.querySelector('main-content')
-
-        ham.addEventListener("click", (e) => {
-            e.stopPropagation()
-            headerContent.classList.toggle("menu-open")
-        })
-
-        nav.addEventListener('click', (e) => {
-            e.stopPropagation();
-        })
-
-        closeIcon.addEventListener("click", (e) => {
-            e.stopPropagation()
-            headerContent.classList.remove("menu-open")
-        })
-
-        
-
-        // goTop.addEventListener("click", () => {
-
-        //     scrollTo(0, 0);
-        // })
-
-        goTop.addEventListener("click", () => {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-
-    </script>
+   
 
 </body>
 
